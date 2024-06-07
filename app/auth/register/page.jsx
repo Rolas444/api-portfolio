@@ -60,7 +60,7 @@ const RegisterPage=()=>{
                     className="p-3 rounded block mb-2 bg-slate-900 text-slate-300 w-full"
                     />
                     {errors.confirmPassword && (<span className="text-red-500 text-sm">{errors.confirmPassword.message}</span>)}
-                    <button type="submit" className="w-full  bg-blue-500 text-white p-3 rounded-lg">
+                    <button type="submit" className="w-full  bg-blue-500 text-white p-3 rounded-lg mt-2">
                         Registrar
                     </button>
                 </form>
