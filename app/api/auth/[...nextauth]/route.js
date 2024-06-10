@@ -2,6 +2,7 @@ import NextAuth from "next-auth/next";
 import CredentialsProvider from "next-auth/providers/credentials";
 import db from "@/libs/db";
 import bcrypt from 'bcrypt'
+import { signIn } from "next-auth/react";
 
 const authOptions = {
     providers: [
@@ -34,6 +35,9 @@ const authOptions = {
             }
         })
     ],
+    pages:{
+        signIn: '/auth/login'
+    }
     // callbacks: {
     //     async redirect({ url, baseUrl }) {
     //         return baseUrl
