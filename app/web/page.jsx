@@ -1,5 +1,5 @@
 'use client'
-import { signOut } from "next-auth/react"
+// import { signOut } from "next-auth/react"
 
 const HomePage = () => {
     return (<>
@@ -8,9 +8,9 @@ const HomePage = () => {
 
         </section>
         <div className="w-full justify-center">
-            <button onClick={signOut} className="bg-white text-black px-4 py-2 rounded-md mt-4">
+            {/* <button onClick={signOut} className="bg-white text-black px-4 py-2 rounded-md mt-4">
                 Logout
-            </button>
+            </button> */}
         </div>
     </>)
 }

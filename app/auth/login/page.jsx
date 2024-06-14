@@ -16,7 +16,7 @@ const LoginPage = () => {
         if(res.error){
             alert(res.error.message)
         }else{
-            router.push('/dashboard')
+            router.push('/web')
         }
         console.log(res)
     })
