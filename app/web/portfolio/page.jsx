@@ -20,6 +20,8 @@ const PortfolioPage = () => {
                     {/* <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0"> */}
                         <InputControlled css='w-full' name='title' label='Titulo del proyecto' control={control} />
                     {/* </div> */}
+
+                    <InputControlled css='w-full' name='description' label='Descripción' control={control} />
                 </div>
             </form>
         </div>
