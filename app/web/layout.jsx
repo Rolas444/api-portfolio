@@ -15,9 +15,9 @@ const MainLayout = ({ children }) => {
     return (<>
 
         <Nav menuList={menuList}  />
-        <div className="container mx-auto">
+        {/* <section className="w-full flex"> */}
             {children}
-        </div>
+        {/* </section> */}
 
     </>)
 }
